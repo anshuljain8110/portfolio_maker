@@ -1,0 +1,19 @@
+#navbar {
+  position: fixed;
+  width: 100vw;
+}
+#navbar > div {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+}
+#navbar > div button {
+  margin: 0px 10px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 15px;
+  text-decoration: underline;
+}/*# sourceMappingURL=Navbar.css.map */

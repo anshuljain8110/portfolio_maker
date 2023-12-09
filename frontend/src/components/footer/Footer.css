@@ -1,0 +1,22 @@
+#footer {
+  background-color: #353535;
+  display: flex;
+  align-items: center;
+  padding: 50px 30vh;
+  justify-content: space-between;
+}
+#footer h2 {
+  color: white;
+}
+#footer > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer > div button, #footer > div a {
+  background-color: #353535;
+  border: none;
+  margin: 0px 8px;
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=Footer.css.map */

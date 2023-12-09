@@ -1,0 +1,59 @@
+#register {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: anim 20s ease-in-out infinite;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#register > div h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+#register > div form {
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.562);
+  background-color: white;
+  padding: 120px 100px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+#register > div form .userid, #register > div form .password {
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 8px 5px;
+  width: 20rem;
+}
+#register > div form button {
+  background-color: rgb(23, 251, 23);
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  padding: 10px 0px;
+  width: 100%;
+  margin-top: 20px;
+}
+#register > div form > div {
+  margin: 20px auto 0px;
+  display: flex;
+  gap: 10px;
+}
+#register > div form > div a {
+  color: blue;
+}
+
+@keyframes anim {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}/*# sourceMappingURL=Register.css.map */

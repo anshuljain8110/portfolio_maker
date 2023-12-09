@@ -1,0 +1,32 @@
+.input {
+    position: fixed;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s linear;
+
+    .inputbox {
+        background-color: white;
+        width: auto;
+        padding: 15px 30px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.416);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        .color{
+            cursor: pointer;
+        }
+
+        .cross{
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}

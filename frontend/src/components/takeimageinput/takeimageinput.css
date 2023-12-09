@@ -1,0 +1,22 @@
+#images {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  transition: all 0.5s;
+  z-index: 1;
+  flex-direction: column;
+}
+#images > div {
+  padding: 10px 50px;
+  background-color: rgba(255, 255, 255, 0.717);
+  border-radius: 20px;
+  margin: 0px 20px;
+}
+#images > div button {
+  background-color: transparent;
+  border: none;
+  margin: 5px 3px 0px;
+  cursor: pointer;
+}/*# sourceMappingURL=takeimageinput.css.map */

@@ -1,0 +1,23 @@
+#errormessage{
+    z-index: 1;
+    transition: all 0.5s linear;
+    color: white;
+    position: fixed;
+    width: 100vw;
+    
+    >div{
+        padding: 10px 20px;
+        background-color: rgba(255, 0, 0, 0.616);
+        border-radius: 100px;
+        margin: 0px 30px 0px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transition: all 0.5s;
+        button{
+            border: none;
+            background-color: transparent;
+            color: white;
+        }
+    }
+}
