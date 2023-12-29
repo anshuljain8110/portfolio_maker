@@ -12,7 +12,7 @@ const router = createBrowserRouter([
     element: (<Customizepage/>)
   },
   {
-    path: "/user/:id",
+    path: "/user",
     element: (<Showpage/>)
   },
   {

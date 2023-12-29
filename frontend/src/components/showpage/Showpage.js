@@ -1,11 +1,12 @@
 import React, { useContext } from 'react'
 import { Data } from '../../context/Userdata'
-import { useParams } from 'react-router'
+import { useSearchParams } from 'react-router-dom'
 
 export default function Showpage() {
     let b = useContext(Data)
-    let {id} = useParams()
-    b.userinitialdata(id)
+    const [id, setid] = useSearchParams();
+    let param = id.get("id")
+    b.userinitialdata(param)
   return (
     <>
     {/* main */}

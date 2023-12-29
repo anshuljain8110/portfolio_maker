@@ -1,0 +1,29 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore build directory
+build/
+
+.cache
+# Ignore documentation
+docs/
+
+# Ignore test coverage
+coverage/
+
+# Ignore IDE files
+.idea/
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore temporary files
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+
+# Ignore cache files
+.cache/
+
+# Ignore npm cache
+.npm/
