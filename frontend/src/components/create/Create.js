@@ -38,7 +38,7 @@ export default function Create() {
         })
         response = await response.json()
         if(response.response==="successfull"){
-            navigator.clipboard.writeText(`http://localhost:3000/user/${localStorage.getItem("userid")}`);
+            navigator.clipboard.writeText(`http://localhost:3000/user/?id=${localStorage.getItem("userid")}`);
             b.setinputdisplay(false)
             b.setlinkdisplay(false)
             b.seterrormessagedisplay(true);
